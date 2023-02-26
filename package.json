@@ -5,7 +5,10 @@
   "scripts": {
     "start:front": "nx serve frontend",
     "build:front": "nx build frontend",
-    "test:front": "nx test frontend"
+    "test:front": "nx test frontend",
+    "start:back": "nx serve api",
+    "build:back": "nx build api",
+    "test:back": "nx test api"
   },
   "private": true,
   "dependencies": {
