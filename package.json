@@ -2,7 +2,11 @@
   "name": "wrhouse",
   "version": "0.0.0",
   "license": "GPL-3.0",
-  "scripts": {},
+  "scripts": {
+    "start:front": "nx serve frontend",
+    "build:front": "nx build frontend",
+    "test:front": "nx test frontend"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.1.0",
